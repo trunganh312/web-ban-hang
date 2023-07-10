@@ -102,7 +102,7 @@ const ProductDetail = () => {
               </div>
               <div className="flex gap-5 p-5 mt-1 bg-slate-100">
                 <span className="text-2xl italic text-gray-500 line-through">
-                  {Number(product?.price) - 150}$
+                  {Number(product?.price) + 150}$
                 </span>
                 <span className="text-3xl text-red-500"> {product?.price}$</span>
               </div>
